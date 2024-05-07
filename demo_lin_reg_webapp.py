@@ -6,7 +6,7 @@ with open('model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Create the Streamlit web app
-st.header("Streamlit demo")
+st.header("Streamlit demo first application")
 
 st.sidebar.header("This is a web app")
 
